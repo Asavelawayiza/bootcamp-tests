@@ -1,4 +1,5 @@
 function countRegNumber(regNum){
+  console.log(regNum)
     var countRegNumber = regNum.split(',')
     for (var i=0; i<countRegNumber.length; i++){
     var results =  countRegNumber.length;
@@ -8,7 +9,7 @@ function countRegNumber(regNum){
     var regCount = countRegNumber('CA 182736,CY 523519,CJ 812328')
     assert.equal(regCount, 3)
 
-    var regNum = ('CA 182736,CY 523519,CJ 812328')
+    var regNum = 'CJ 124,CY 567,CL 345, CF 456, CL 341';
     var regCount = countRegNumber(regNum);
  
-    var dataLength = ('CL 225 525, CY 854 548, CJ 851236');
+    var dataLength = 'CJ 124,CY 567,CL 345, CF 456, CL 341';

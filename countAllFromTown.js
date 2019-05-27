@@ -1,5 +1,4 @@
 function countAllFromTown(regNum, loc){
-    console.log(regNum)
      var reg = regNum.split(',')
      var array = [];
      for (var i=0; i<reg.length; i++){
@@ -7,10 +6,11 @@ function countAllFromTown(regNum, loc){
      if (countAllFromTown.startsWith(loc)||countAllFromTown.startsWith(' '+loc)){
      array.push(countAllFromTown);
     }
-     console.log(array);  
      }
      return array.length;
    }
-   
-   
+   var regNum = 'CJ 124,CY 567,CL 345, CF 456, CL 341';
+   var fromTown = countAllFromTown(regNum);
+
+  var town = '';
    

@@ -1,0 +1,17 @@
+function fromWhere(reg){
+    if (reg.startsWith('CY')){
+      return 'Bellville';
+    }
+    else if (reg.startsWith('CJ')){
+      return 'Paarl';
+    }
+    else if (reg.startsWith('CA')){
+      return 'Cape Town'
+    }
+    else {
+      return 'Some other place!'
+    }
+  };
+  var reg = 'CY, CJ, CA, CC';
+  var where = fromWhere(reg);
+  var CY = 'Bellville';
