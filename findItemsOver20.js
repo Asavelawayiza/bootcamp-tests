@@ -9,7 +9,8 @@ function findItemsOver20(list){
     return itemList;
   }
   
- 
-var list  = "name : apples, qty : 10, name : pears, qty : 37, name : bananas, qty : 27, name : apples, qty : 3"
-
-var ItemsOver20 = findItemsOver20(list);
+  
+var results = [
+  {name : 'pears', qty : 37},
+  {name : 'bananas', qty : 27},
+];
