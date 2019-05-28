@@ -9,7 +9,7 @@ function fromWhere(reg){
       return 'Cape Town'
     }
     else {
-      return 'Some other place!'
+      return 'some other place'
     }
   };
   var reg = 'CY, CJ, CA, CC';
